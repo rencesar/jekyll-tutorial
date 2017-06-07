@@ -2,4 +2,12 @@
 layout: default
 ---
 <h1>NEWS Html</h1>
-<p>Some text to se the changes</p>
+
+<ul>
+	{% for new in site.posts %}
+	<li>
+		<a href="">{{ new.title }}</a>
+		<p>{{ new.meta }}</p>
+	</li>
+	{% endfor %}
+</ul>
