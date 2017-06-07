@@ -1,0 +1,3 @@
+markdow: redcarpet
+baseurl: /jekyll-tutorial
+exclude: ['README.md',]
